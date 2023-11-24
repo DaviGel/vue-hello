@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vue Hello</title>
+    <!-- Mio CSS -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1 id="title">{{ message }}</h1>
+    <div class="container">
+      <h1>{{ message }}</h1>
+      <img :src="imgPath" :alt="imgAlt" />
+    </div>
     <!-- Vue JS -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- Mio JS -->

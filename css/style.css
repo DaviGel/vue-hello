@@ -1,0 +1,18 @@
+/* #region RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* #endregion */
+
+/* #region COMMON */
+
+.container {
+  margin: 30px auto;
+  text-align: center;
+}
+
+/* #endregion */
